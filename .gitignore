@@ -1,4 +1,4 @@
-.metadata
+.metadata/
 bin/
 tmp/
 *.tmp
@@ -7,5 +7,5 @@ tmp/
 *~.nib
 local.properties
 .settings/
-.loadpath
-.recommenders
+.loadpath/
+.recommenders/
