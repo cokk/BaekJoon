@@ -26,5 +26,6 @@ public class Lv6_5_10039 {
 			avg += st[i];
 		}
 		System.out.println(avg / 5);
+		sc.close();
 	}
 }
