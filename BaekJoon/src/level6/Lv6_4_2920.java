@@ -32,5 +32,6 @@ public class Lv6_4_2920 {
 			}
 		}
 		System.out.println(result);
+		sc.close();
 	}
 }
