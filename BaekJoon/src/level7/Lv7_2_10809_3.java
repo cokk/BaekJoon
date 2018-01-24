@@ -7,7 +7,6 @@ package level7;
 import java.util.Scanner;
 
 public class Lv7_2_10809_3 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String S = sc.nextLine();
