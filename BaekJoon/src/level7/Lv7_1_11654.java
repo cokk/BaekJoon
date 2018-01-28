@@ -9,7 +9,7 @@ public class Lv7_1_11654 {
 	public static void main(String[] args) {
 		char input;
 		Scanner sc = new Scanner(System.in);
-		input = sc.next().charAt(0);
+		input = sc.next().charAt(0); // scanner input char
 		System.out.println((int)input);
 		sc.close();
 	}
