@@ -13,23 +13,26 @@ import java.util.Scanner;
 
 public class Lv6_4_2920 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); 
 		int[] scale = new int[8];
 		String result = null;
 
-		for (int i = 0; i < scale.length - 1; i++) {
+		for (int i = 0; i < scale.length; i++) {
 			scale[i] = sc.nextInt();
-
-			if(result == "mixed") continue;
-			
 			if (i > 0) {
-				if (scale[i] - scale[i - 1] == 1)
-					result = "ascending";
-				else if (scale[i] - scale[i - 1] == -1)
-					result = "descending";
-				else
+				if (result == "mixed")
+					break;
+
+				if (scale[i] - scale[i - 1] == 1) {
+					if(i>2 & result != "ascending") result = "mixed";
+					else result = "ascending";
+				} else if (scale[i] - scale[i - 1] == -1) {
+					if(i>2 & result != "descending") result = "mixed";
+					else result = "descending";
+				} else
 					result = "mixed";
 			}
+
 		}
 		System.out.println(result);
 		sc.close();
