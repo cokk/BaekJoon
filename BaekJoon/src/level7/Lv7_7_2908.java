@@ -5,14 +5,13 @@
 //두 수가 주어졌을 때, 상수의 대답을 출력하는 프로그램을 작성하시오.
 
 package level7;
-
 import java.util.Scanner;
 
 public class Lv7_7_2908 {
-	static int reverse(int input) { //734
-		int save = input; //437
-		input = save/100; //7
-		input += ((save%100)/10)*10; //
+	static int reverse(int input) { 
+		int save = input; 
+		input = save/100; 
+		input += ((save%100)/10)*10; 
 		input += ((save%100)%10)*100;
 		return input;
 	}
@@ -25,7 +24,6 @@ public class Lv7_7_2908 {
 			num[i] = sc.nextInt();
 			num[i] = reverse(num[i]);
 		}
-
 		System.out.println(num[0] > num[1] ? num[0] : num[1]);
 	}
 }
