@@ -16,7 +16,7 @@ public class Lv7_4_1157_2 {
 		int max=0, place=0, dup=0;
 
 		for (int i = 0; i < input.length(); i++) {
-			if (input.charAt(i) > 'Z') {
+			if (input.charAt(i) > 'Z') { //
 				apb[input.charAt(i) - 'a'] += 1;
 				if(apb[input.charAt(i) - 'a'] == max)
 					dup = max;
@@ -24,7 +24,7 @@ public class Lv7_4_1157_2 {
 					max = apb[input.charAt(i)-'a'];
 					place = i;
 				}
-			} else {
+			} else { //
 				apb[input.charAt(i) - 'A'] += 1;
 				if(apb[input.charAt(i)-'A'] == max)
 					dup = max;
