@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Lv8_2_2292_2 {
 	static long beeValue = 1;
 	private static long beeHouseRule(long i){
-			beeValue += i*6;
+		beeValue += i*6;
 		return beeValue;
 	}
 	private static long beeHouse(long input){
