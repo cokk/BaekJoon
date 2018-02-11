@@ -8,7 +8,7 @@
 package level8;
 import java.util.Scanner;
 
-public class Lv8_6_2775 {
+public class Lv8_7_2775 {
 	private static int houseRules(int layer, int room, int people){
 		if(layer == 1){
 			people = 0;
