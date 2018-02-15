@@ -11,13 +11,12 @@ import java.util.Scanner;
 public class Lv1_7_11718 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String s = "";
+		String input = "";
 		
-		while(true){
-			if(s.contains("\n\\n")) break;
-			s += sc.nextLine();
+		while(sc.hasNext()){
+			input = sc.nextLine();
+			System.out.println(input);
 		}
-		
-		System.out.println(s);
+		sc.close();
 	}
 }
