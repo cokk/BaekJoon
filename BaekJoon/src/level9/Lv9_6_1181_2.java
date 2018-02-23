@@ -15,13 +15,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
-
 public class Lv9_6_1181_2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bp = new BufferedReader(new InputStreamReader(System.in));
 		int input = Integer.parseInt(bp.readLine());
-		//ArrayList<String> words = new ArrayList<input>;
 		String[] words = new String[input];
 		String temp;
 
@@ -41,7 +39,7 @@ public class Lv9_6_1181_2 {
 			}
 		}
 		
-		ArrayList<String> words2 = new ArrayList();
+		ArrayList<String> words2 = new ArrayList<String>();
 		
 		words2.add(0, words[0]);
 		for (int i = 1; i < input; i++) {
