@@ -1,3 +1,7 @@
+//Baekjoon Online Judge : https://www.acmicpc.net
+//Question 1978 : 소수 찾기 
+//주어진 수 N개 중에서 소수가 몇 개인지 찾아서 출력하는 프로그램을 작성하시오.
+
 package level10;
 
 import java.io.BufferedReader;
@@ -5,33 +9,18 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Lv10_1_1978 {
-// 수정 해야함. 
 	private static int primeNumber(String n){
-		int input = Integer.parseInt(n);
+		Double input = Double.parseDouble(n);
 		if(input <= 1) return 0;
 		
-		ArrayList<Boolean> primeList = new ArrayList<Boolean>();
-		primeList.add(false); // 0
-		primeList.add(false); // 1
-		
-		for(int i=2; i <= input; i++){ // 2 ~ n 
-			primeList.add(true); 
+		for(int i=2; i <= Math.sqrt(input); i++){
+			if(input % i == 0) return 0; 
 		}
 		
-		for(int i=2; i*i <= input; i++){
-			if(primeList.get(i)){
-				for(int j=i; j<= input; j+=i){
-					primeList.add(j, false);
-				}
-			}
-		}
-		
-		
-		return input;
+		return 1;
 	}
 	public static void main(String[] args) throws IOException {
 		BufferedReader bp = new BufferedReader(new InputStreamReader(System.in));
