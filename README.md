@@ -1,2 +1,5 @@
 # BaekJoon
-백준 알고리즘 풀이
+Backjoon Online Judge
+--------------------------
+> Algorithm programming
+> <https://www.acmicpc.net>
