@@ -1,5 +1,4 @@
-# BaekJoon
-Backjoon Online Judge
+# BaekJoon Online Judge
 --------------------------
-> Algorithm programming
+> Algorithm programming <br/>
 > <https://www.acmicpc.net>
