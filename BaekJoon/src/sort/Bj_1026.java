@@ -6,7 +6,9 @@
 //S의 값을 가장 작게 만들기 위해 A의 수를 재배열하자. 단, B에 있는 수는 재배열하면 안된다.
 //S의 최솟값을 출력하는 프로그램을 작성하시오.
 
-package selectionSort;
+//Selection Sort
+
+package sort;
 
 import java.util.Scanner;
 

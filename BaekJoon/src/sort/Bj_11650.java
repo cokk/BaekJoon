@@ -6,9 +6,10 @@
 //(-100,000 ≤ xi, yi ≤ 100,000) 좌표는 항상 정수이고, 위치가 같은 두 점은 없다.
 //첫째 줄부터 N개의 줄에 점을 정렬한 결과를 출력한다.
 
+//Selection Sort
 //선택 정렬로 풀이 시 시간초과, 퀵 정렬로 풀어야 함.
 
-package selectionSort;
+package sort;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
