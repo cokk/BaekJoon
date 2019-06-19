@@ -10,3 +10,5 @@ local.properties
 .loadpath/
 .recommenders/
 .bak
+*.iml
+.idea/
