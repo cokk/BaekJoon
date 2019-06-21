@@ -12,3 +12,6 @@ local.properties
 .bak
 *.iml
 .idea/
+*.iws
+*.ipr
+*/out/
