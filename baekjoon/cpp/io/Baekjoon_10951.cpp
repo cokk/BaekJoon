@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  Baekjoon_10951.cpp
 //  baekjoon
 //
 //  Created by KoDakyung on 10/08/2019.
@@ -10,6 +10,9 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    cout << "Hello World!\n";
+    int a, b;
+    while(cin >> a >> b) {
+        cout << a + b << '\n';
+    }
     return 0;
 }

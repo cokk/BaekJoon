@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3C47FC9E22FE671F00156E49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C47FC9D22FE671F00156E49 /* main.cpp */; };
-		3C47FCB322FE97EF00156E49 /* Baekjoon_2557.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C47FCB122FE974500156E49 /* Baekjoon_2557.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,31 @@
 /* Begin PBXFileReference section */
 		3C47FC9A22FE671F00156E49 /* baekjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baekjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C47FC9D22FE671F00156E49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		3C47FCB122FE974500156E49 /* Baekjoon_2557.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2557.cpp; sourceTree = "<group>"; };
+		3C47FCC622FEAB3500156E49 /* Baekjoon_2557.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2557.cpp; sourceTree = "<group>"; };
+		3C47FCC722FEAB3500156E49 /* Baekjoon_10950.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_10950.cpp; sourceTree = "<group>"; };
+		3C47FCC822FEAB3500156E49 /* Baekjoon_10952.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_10952.cpp; sourceTree = "<group>"; };
+		3C47FCC922FEAB3500156E49 /* Baekjoon_11022.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11022.cpp; sourceTree = "<group>"; };
+		3C47FCCA22FEAB3500156E49 /* Baekjoon_1000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_1000.cpp; sourceTree = "<group>"; };
+		3C47FCCB22FEAB3500156E49 /* Baekjoon_10951.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_10951.cpp; sourceTree = "<group>"; };
+		3C47FCCC22FEAB3500156E49 /* Baekjoon_10953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_10953.cpp; sourceTree = "<group>"; };
+		3C47FCCD22FEAB3500156E49 /* Baekjoon_11021.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11021.cpp; sourceTree = "<group>"; };
+		3C47FCCF22FEAB9C00156E49 /* Baekjoon_11718.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11718.cpp; sourceTree = "<group>"; };
+		3C47FCD022FEB24900156E49 /* Baekjoon_11719.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11719.cpp; sourceTree = "<group>"; };
+		3CA34E8322FFED300082AC19 /* Baekjoon_11720_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11720_1.cpp; sourceTree = "<group>"; };
+		3CA34E8422FFED410082AC19 /* Baekjoon_11720_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11720_2.cpp; sourceTree = "<group>"; };
+		3CA34E8522FFEE440082AC19 /* Baekjoon_11721.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_11721.cpp; sourceTree = "<group>"; };
+		3CA34E8622FFF0E70082AC19 /* Baekjoon_2741.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2741.cpp; sourceTree = "<group>"; };
+		3CA34E8722FFF1020082AC19 /* Baekjoon_2742.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2742.cpp; sourceTree = "<group>"; };
+		3CA34E8922FFF5190082AC19 /* Baekjoon_1924.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_1924.cpp; sourceTree = "<group>"; };
+		3CA34E8A22FFF5470082AC19 /* Baekjoon_8393.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_8393.cpp; sourceTree = "<group>"; };
+		3CA34E8B22FFF72B0082AC19 /* Baekjoon_10818.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_10818.cpp; sourceTree = "<group>"; };
+		3CA34E92230003210082AC19 /* Baekjoon_2444.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2444.cpp; sourceTree = "<group>"; };
+		3CA34EB7230004CC0082AC19 /* Baekjoon_2441.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2441.cpp; sourceTree = "<group>"; };
+		3CA34EB8230004CC0082AC19 /* Baekjoon_2440.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2440.cpp; sourceTree = "<group>"; };
+		3CA34EB9230004CC0082AC19 /* Baekjoon_2442.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2442.cpp; sourceTree = "<group>"; };
+		3CA34EBA230004CC0082AC19 /* Baekjoon_2439.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2439.cpp; sourceTree = "<group>"; };
+		3CA34EBB230004CC0082AC19 /* Baekjoon_2438.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2438.cpp; sourceTree = "<group>"; };
+		3CA34EBC2300053E0082AC19 /* Baekjoon_2739.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baekjoon_2739.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,8 @@
 		3C47FC9122FE671F00156E49 = {
 			isa = PBXGroup;
 			children = (
+				3CA34EB6230004CC0082AC19 /* star */,
+				3C47FCCE22FEAB6200156E49 /* io */,
 				3C47FC9C22FE671F00156E49 /* baekjoon */,
 				3C47FC9B22FE671F00156E49 /* Products */,
 			);
@@ -59,10 +84,48 @@
 		3C47FC9C22FE671F00156E49 /* baekjoon */ = {
 			isa = PBXGroup;
 			children = (
-				3C47FCB122FE974500156E49 /* Baekjoon_2557.cpp */,
 				3C47FC9D22FE671F00156E49 /* main.cpp */,
+				3CA34E92230003210082AC19 /* Baekjoon_2444.cpp */,
 			);
 			path = baekjoon;
+			sourceTree = "<group>";
+		};
+		3C47FCCE22FEAB6200156E49 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				3CA34EBC2300053E0082AC19 /* Baekjoon_2739.cpp */,
+				3C47FCC622FEAB3500156E49 /* Baekjoon_2557.cpp */,
+				3C47FCC922FEAB3500156E49 /* Baekjoon_11022.cpp */,
+				3C47FCCB22FEAB3500156E49 /* Baekjoon_10951.cpp */,
+				3C47FCC822FEAB3500156E49 /* Baekjoon_10952.cpp */,
+				3C47FCCC22FEAB3500156E49 /* Baekjoon_10953.cpp */,
+				3C47FCCD22FEAB3500156E49 /* Baekjoon_11021.cpp */,
+				3C47FCC722FEAB3500156E49 /* Baekjoon_10950.cpp */,
+				3C47FCCA22FEAB3500156E49 /* Baekjoon_1000.cpp */,
+				3C47FCCF22FEAB9C00156E49 /* Baekjoon_11718.cpp */,
+				3C47FCD022FEB24900156E49 /* Baekjoon_11719.cpp */,
+				3CA34E8322FFED300082AC19 /* Baekjoon_11720_1.cpp */,
+				3CA34E8422FFED410082AC19 /* Baekjoon_11720_2.cpp */,
+				3CA34E8522FFEE440082AC19 /* Baekjoon_11721.cpp */,
+				3CA34E8622FFF0E70082AC19 /* Baekjoon_2741.cpp */,
+				3CA34E8722FFF1020082AC19 /* Baekjoon_2742.cpp */,
+				3CA34E8922FFF5190082AC19 /* Baekjoon_1924.cpp */,
+				3CA34E8A22FFF5470082AC19 /* Baekjoon_8393.cpp */,
+				3CA34E8B22FFF72B0082AC19 /* Baekjoon_10818.cpp */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		3CA34EB6230004CC0082AC19 /* star */ = {
+			isa = PBXGroup;
+			children = (
+				3CA34EB7230004CC0082AC19 /* Baekjoon_2441.cpp */,
+				3CA34EB8230004CC0082AC19 /* Baekjoon_2440.cpp */,
+				3CA34EB9230004CC0082AC19 /* Baekjoon_2442.cpp */,
+				3CA34EBA230004CC0082AC19 /* Baekjoon_2439.cpp */,
+				3CA34EBB230004CC0082AC19 /* Baekjoon_2438.cpp */,
+			);
+			path = star;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C47FC9E22FE671F00156E49 /* main.cpp in Sources */,
-				3C47FCB322FE97EF00156E49 /* Baekjoon_2557.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
