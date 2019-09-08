@@ -2,6 +2,7 @@ package dp;
 
 import java.util.Scanner;
 
+// Top-down
 public class Bj_11052 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
